@@ -2643,7 +2643,7 @@ func TestInstrumentsConfig(t *testing.T) {
 	assert.True(t, foundServerDuration, "server duration metric should be found")
 }
 
-// assertUsableTraceparent validates that a traceparent header can be used fromthe response.
+// assertUsableTraceparent validates that a traceparent header can be used from the response.
 func assertUsableTraceparent(t *testing.T, header http.Header) {
 	t.Helper()
 
